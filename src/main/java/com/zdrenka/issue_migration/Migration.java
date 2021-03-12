@@ -69,7 +69,7 @@ public class Migration {
     }
 
     public void init(String[] args) throws IOException {
-        configure = new BacklogComConfigure("zdrenka").apiKey("KbUGPVXaIuZJkXNRJyWDunbjMpIF5GnYx8ppMUlQepKdroz680HqBdYPIsHnSC7q");
+        configure = new BacklogComConfigure("zdrenka").apiKey("");
         backlog = new BacklogClientFactory(configure).newClient();
         project = backlog.getProject("VRS");
 
